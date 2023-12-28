@@ -54,4 +54,3 @@ Practical implementation of linear algebra concepts using Python:
 
 Understanding linear algebra concepts is foundational for a wide range of applications. This guide emphasizes the significance of linear equations, systems of linear equations, and visualization techniques in algebraic modeling. Gaussian Elimination is introduced as a systematic method for solving systems, and the concept of system consistency is discussed for a comprehensive understanding. Practical implementation in Python using libraries like NumPy and Sympy further enhances the applicability of these concepts in real-world scenarios.
 
-Feel free to use and customize this README.md file as needed.
