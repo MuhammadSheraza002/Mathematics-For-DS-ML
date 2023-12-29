@@ -1,4 +1,4 @@
-## 1. Row Reduction and Echelon Form
+## Row Reduction and Echelon Form
 
 ### Introduction
 
@@ -18,19 +18,7 @@ A matrix is in echelon form if it satisfies certain conditions:
 2. The leading entry of each nonzero row occurs to the right of the leading entry of the previous row.
 3. The leading entry in any nonzero row is 1.
 
-#### Example
-
-Consider the augmented matrix:
-\[ \begin{bmatrix} 2 & 1 & -1 & 8 \\ -3 & -1 & 2 & -11 \\ -2 & 1 & 2 & -3 \end{bmatrix} \]
-
-After row reduction, the matrix is transformed into echelon form:
-\[ \begin{bmatrix} 2 & 1 & -1 & 8 \\ 0 & \frac{1}{2} & \frac{1}{2} & 1 \\ 0 & 0 & -1 & 1 \end{bmatrix} \]
-
-### Conclusion
-
-Understanding row reduction and echelon form is crucial for solving systems of linear equations. These concepts play a significant role in various applications in mathematics and other fields.
-
-## 2. Parametric Description of Solution Sets
+## Parametric Description of Solution Sets
 
 ### Introduction
 
@@ -43,31 +31,9 @@ A system of linear equations can have three types of solutions:
 2. No Solution.
 3. Infinite Solutions.
 
-### Examples
-
-#### Unique Solution
-
-Consider the system:
-\[ \begin{align*} x + y &= 3 \\ 2x - y &= 1 \end{align*} \]
-The unique solution is \(x = 2, y = 1\).
-
-#### No Solution
-
-Consider the system:
-\[ \begin{align*} x + y &= 3 \\ 2x + 2y &= 6 \end{align*} \]
-This system has no solution.
-
-#### Infinite Solutions
-
-Consider the system:
-\[ \begin{align*} x + y &= 3 \\ 2x + 2y &= 6 \end{align*} \]
-The parametric description is:
-\[ \begin{align*} x &= t \\ y &= 3 - t \end{align*} \]
-
 ### Conclusion
 
+Understanding row reduction and echelon form is crucial for solving systems of linear equations. These concepts play a significant role in various applications in mathematics and other fields.
 Understanding the parametric description of solution sets is crucial for solving and expressing solutions to systems of linear equations. It provides a concise and flexible representation that covers the entire solution space.
 
----
 
-Feel free to use and modify this README template to document your lectures as needed.
